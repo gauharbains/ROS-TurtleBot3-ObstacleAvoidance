@@ -8,7 +8,7 @@ This submission consists of the `ObstacleAvoidance` ROS package.
 1. Please paste this package in the 'src' directory of your catkin workspace and run `catkin_make`
 2. Run `rospack profile`
 3. Launch the gazebo environment at (x,y)= (-2,0) (or any desired postion) using --> roslaunch turtlebot3_gazebo turtlebot3_world.launch x_pos:=-2 y_pos:=0
-4. Run the turtlebot_controller.py node from the package `rwa2-bains` using ----> rosrun rwa2-bains turtlebot3_controller.py 
+4. Run the turtlebot_controller.py node from the package `ObstacleAvoidance` using ----> rosrun ObstacleAvoidance turtlebot3_controller.py 
 5. The program exits after all goals have been reached.
 ```
 
